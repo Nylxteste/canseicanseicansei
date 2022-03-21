@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.texto1{
+    background: linear-gradient(green, yellow);
+   width: 50%;
+   display:inline-block;
+   padding: 20px;
+}
+.texto2{
+    background: linear-gradient(red, yellow);
+    float: right;
+    width: 50%;
+    padding: 20px;
+}
+
+@media screen and (max-width:425px ) {
+    .texto1{
+        background: linear-gradient(green, yellow);
+        width: 100%;
+    }
+    .texto2{
+        background: linear-gradient(rgb(151, 6, 6), yellow);
+        width: 100%;
+    }
+    
+}
